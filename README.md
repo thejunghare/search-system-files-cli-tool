@@ -7,13 +7,13 @@ This is a command-line interface (CLI) tool that allows you to search for files 
 To use this tool, run the `search` command followed by the `--path` or `-p` flag and the name of the file you want to search for. For example:
 
 ```
-search --path myfile.txt
+Search --path myfile.txt
 ```
 
 or
 
 ```
-search -p myfile.txt
+Search -p myfile.txt
 ```
 
 If the file exists, the tool will return the absolute path of the file. If the file does not exist, an error message will be printed.
