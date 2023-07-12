@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/thejunghare/cmd"
+	"github.com/thejunghare/files/cmd"
 )
 
 func main() {
-	cmd.rootCmd.Execute()
+	cmd.RootCmd.Execute()
 }
